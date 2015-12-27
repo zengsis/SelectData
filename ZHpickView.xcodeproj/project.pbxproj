@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1319B741A1B21E100530906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B731A1B21E100530906 /* Foundation.framework */; };
+		F1319B761A1B21E100530906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B751A1B21E100530906 /* CoreGraphics.framework */; };
+		F1319B781A1B21E100530906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B771A1B21E100530906 /* UIKit.framework */; };
+		F1319B7E1A1B21E100530906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1319B7C1A1B21E100530906 /* InfoPlist.strings */; };
+		F1319B801A1B21E100530906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319B7F1A1B21E100530906 /* main.m */; };
+		F1319B841A1B21E100530906 /* ZHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319B831A1B21E100530906 /* ZHAppDelegate.m */; };
+		F1319B871A1B21E100530906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1319B851A1B21E100530906 /* Main.storyboard */; };
+		F1319B8C1A1B21E100530906 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1319B8B1A1B21E100530906 /* Images.xcassets */; };
+		F1319B931A1B21E100530906 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B921A1B21E100530906 /* XCTest.framework */; };
+		F1319B941A1B21E100530906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B731A1B21E100530906 /* Foundation.framework */; };
+		F1319B951A1B21E100530906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1319B771A1B21E100530906 /* UIKit.framework */; };
+		F1319B9D1A1B21E100530906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1319B9B1A1B21E100530906 /* InfoPlist.strings */; };
+		F1319B9F1A1B21E100530906 /* ZHpickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319B9E1A1B21E100530906 /* ZHpickViewTests.m */; };
+		F1319BAA1A1B21FC00530906 /* ZHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319BA91A1B21FC00530906 /* ZHTableViewController.m */; };
+		F1319BAF1A1B272B00530906 /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1319BAE1A1B272B00530906 /* ZHPickView.m */; };
+		F1319BB11A1B2C7C00530906 /* pickTestaa.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1319BB01A1B2C7C00530906 /* pickTestaa.plist */; };
+		F1319BD01A1B2EB100530906 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1319BC01A1B2EB100530906 /* city.plist */; };
+		F1EB0E7D1A28304500E47A3B /* 多组数据.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1EB0E7B1A28304500E47A3B /* 多组数据.plist */; };
+		F1EB0E7E1A28304500E47A3B /* 一组数据.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1EB0E7C1A28304500E47A3B /* 一组数据.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1319B961A1B21E100530906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1319B681A1B21E100530906 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1319B6F1A1B21E100530906;
+			remoteInfo = ZHpickView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1319B701A1B21E100530906 /* ZHpickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHpickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1319B731A1B21E100530906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1319B751A1B21E100530906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1319B771A1B21E100530906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1319B7B1A1B21E100530906 /* ZHpickView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZHpickView-Info.plist"; sourceTree = "<group>"; };
+		F1319B7D1A1B21E100530906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1319B7F1A1B21E100530906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1319B811A1B21E100530906 /* ZHpickView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHpickView-Prefix.pch"; sourceTree = "<group>"; };
+		F1319B821A1B21E100530906 /* ZHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHAppDelegate.h; sourceTree = "<group>"; };
+		F1319B831A1B21E100530906 /* ZHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHAppDelegate.m; sourceTree = "<group>"; };
+		F1319B861A1B21E100530906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1319B8B1A1B21E100530906 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1319B911A1B21E100530906 /* ZHpickViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHpickViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1319B921A1B21E100530906 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1319B9A1A1B21E100530906 /* ZHpickViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZHpickViewTests-Info.plist"; sourceTree = "<group>"; };
+		F1319B9C1A1B21E100530906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1319B9E1A1B21E100530906 /* ZHpickViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHpickViewTests.m; sourceTree = "<group>"; };
+		F1319BA81A1B21FC00530906 /* ZHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTableViewController.h; sourceTree = "<group>"; };
+		F1319BA91A1B21FC00530906 /* ZHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTableViewController.m; sourceTree = "<group>"; };
+		F1319BAD1A1B272B00530906 /* ZHPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPickView.h; sourceTree = "<group>"; };
+		F1319BAE1A1B272B00530906 /* ZHPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPickView.m; sourceTree = "<group>"; };
+		F1319BB01A1B2C7C00530906 /* pickTestaa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pickTestaa.plist; sourceTree = "<group>"; };
+		F1319BC01A1B2EB100530906 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		F1EB0E7B1A28304500E47A3B /* 多组数据.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "多组数据.plist"; sourceTree = "<group>"; };
+		F1EB0E7C1A28304500E47A3B /* 一组数据.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "一组数据.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1319B6D1A1B21E100530906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B761A1B21E100530906 /* CoreGraphics.framework in Frameworks */,
+				F1319B781A1B21E100530906 /* UIKit.framework in Frameworks */,
+				F1319B741A1B21E100530906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1319B8E1A1B21E100530906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B931A1B21E100530906 /* XCTest.framework in Frameworks */,
+				F1319B951A1B21E100530906 /* UIKit.framework in Frameworks */,
+				F1319B941A1B21E100530906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1319B671A1B21E100530906 = {
+			isa = PBXGroup;
+			children = (
+				F1319B791A1B21E100530906 /* ZHpickView */,
+				F1319B981A1B21E100530906 /* ZHpickViewTests */,
+				F1319B721A1B21E100530906 /* Frameworks */,
+				F1319B711A1B21E100530906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1319B711A1B21E100530906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1319B701A1B21E100530906 /* ZHpickView.app */,
+				F1319B911A1B21E100530906 /* ZHpickViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1319B721A1B21E100530906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1319B731A1B21E100530906 /* Foundation.framework */,
+				F1319B751A1B21E100530906 /* CoreGraphics.framework */,
+				F1319B771A1B21E100530906 /* UIKit.framework */,
+				F1319B921A1B21E100530906 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1319B791A1B21E100530906 /* ZHpickView */ = {
+			isa = PBXGroup;
+			children = (
+				F1319BAC1A1B26E000530906 /* ZHpickView */,
+				F1319B821A1B21E100530906 /* ZHAppDelegate.h */,
+				F1319B831A1B21E100530906 /* ZHAppDelegate.m */,
+				F1319B851A1B21E100530906 /* Main.storyboard */,
+				F1319BA81A1B21FC00530906 /* ZHTableViewController.h */,
+				F1319BA91A1B21FC00530906 /* ZHTableViewController.m */,
+				F1319B8B1A1B21E100530906 /* Images.xcassets */,
+				F1319B7A1A1B21E100530906 /* Supporting Files */,
+			);
+			path = ZHpickView;
+			sourceTree = "<group>";
+		};
+		F1319B7A1A1B21E100530906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1319BB21A1B2E7E00530906 /* pilst */,
+				F1319B7B1A1B21E100530906 /* ZHpickView-Info.plist */,
+				F1319B7C1A1B21E100530906 /* InfoPlist.strings */,
+				F1319B7F1A1B21E100530906 /* main.m */,
+				F1319B811A1B21E100530906 /* ZHpickView-Prefix.pch */,
+				F1319BB01A1B2C7C00530906 /* pickTestaa.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1319B981A1B21E100530906 /* ZHpickViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1319B9E1A1B21E100530906 /* ZHpickViewTests.m */,
+				F1319B991A1B21E100530906 /* Supporting Files */,
+			);
+			path = ZHpickViewTests;
+			sourceTree = "<group>";
+		};
+		F1319B991A1B21E100530906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1319B9A1A1B21E100530906 /* ZHpickViewTests-Info.plist */,
+				F1319B9B1A1B21E100530906 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1319BAC1A1B26E000530906 /* ZHpickView */ = {
+			isa = PBXGroup;
+			children = (
+				F1319BAD1A1B272B00530906 /* ZHPickView.h */,
+				F1319BAE1A1B272B00530906 /* ZHPickView.m */,
+			);
+			name = ZHpickView;
+			sourceTree = "<group>";
+		};
+		F1319BB21A1B2E7E00530906 /* pilst */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB0E7B1A28304500E47A3B /* 多组数据.plist */,
+				F1EB0E7C1A28304500E47A3B /* 一组数据.plist */,
+				F1319BC01A1B2EB100530906 /* city.plist */,
+			);
+			name = pilst;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1319B6F1A1B21E100530906 /* ZHpickView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1319BA21A1B21E100530906 /* Build configuration list for PBXNativeTarget "ZHpickView" */;
+			buildPhases = (
+				F1319B6C1A1B21E100530906 /* Sources */,
+				F1319B6D1A1B21E100530906 /* Frameworks */,
+				F1319B6E1A1B21E100530906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHpickView;
+			productName = ZHpickView;
+			productReference = F1319B701A1B21E100530906 /* ZHpickView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1319B901A1B21E100530906 /* ZHpickViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1319BA51A1B21E100530906 /* Build configuration list for PBXNativeTarget "ZHpickViewTests" */;
+			buildPhases = (
+				F1319B8D1A1B21E100530906 /* Sources */,
+				F1319B8E1A1B21E100530906 /* Frameworks */,
+				F1319B8F1A1B21E100530906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1319B971A1B21E100530906 /* PBXTargetDependency */,
+			);
+			name = ZHpickViewTests;
+			productName = ZHpickViewTests;
+			productReference = F1319B911A1B21E100530906 /* ZHpickViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1319B681A1B21E100530906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "赵恒志";
+				TargetAttributes = {
+					F1319B901A1B21E100530906 = {
+						TestTargetID = F1319B6F1A1B21E100530906;
+					};
+				};
+			};
+			buildConfigurationList = F1319B6B1A1B21E100530906 /* Build configuration list for PBXProject "ZHpickView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1319B671A1B21E100530906;
+			productRefGroup = F1319B711A1B21E100530906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1319B6F1A1B21E100530906 /* ZHpickView */,
+				F1319B901A1B21E100530906 /* ZHpickViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1319B6E1A1B21E100530906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B8C1A1B21E100530906 /* Images.xcassets in Resources */,
+				F1319B7E1A1B21E100530906 /* InfoPlist.strings in Resources */,
+				F1319BD01A1B2EB100530906 /* city.plist in Resources */,
+				F1319B871A1B21E100530906 /* Main.storyboard in Resources */,
+				F1EB0E7D1A28304500E47A3B /* 多组数据.plist in Resources */,
+				F1EB0E7E1A28304500E47A3B /* 一组数据.plist in Resources */,
+				F1319BB11A1B2C7C00530906 /* pickTestaa.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1319B8F1A1B21E100530906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B9D1A1B21E100530906 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1319B6C1A1B21E100530906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B841A1B21E100530906 /* ZHAppDelegate.m in Sources */,
+				F1319B801A1B21E100530906 /* main.m in Sources */,
+				F1319BAA1A1B21FC00530906 /* ZHTableViewController.m in Sources */,
+				F1319BAF1A1B272B00530906 /* ZHPickView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1319B8D1A1B21E100530906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1319B9F1A1B21E100530906 /* ZHpickViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1319B971A1B21E100530906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1319B6F1A1B21E100530906 /* ZHpickView */;
+			targetProxy = F1319B961A1B21E100530906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1319B7C1A1B21E100530906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1319B7D1A1B21E100530906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1319B851A1B21E100530906 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1319B861A1B21E100530906 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1319B9B1A1B21E100530906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1319B9C1A1B21E100530906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1319BA01A1B21E100530906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1319BA11A1B21E100530906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1319BA31A1B21E100530906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHpickView/ZHpickView-Prefix.pch";
+				INFOPLIST_FILE = "ZHpickView/ZHpickView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1319BA41A1B21E100530906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHpickView/ZHpickView-Prefix.pch";
+				INFOPLIST_FILE = "ZHpickView/ZHpickView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1319BA61A1B21E100530906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZHpickView.app/ZHpickView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHpickView/ZHpickView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZHpickViewTests/ZHpickViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1319BA71A1B21E100530906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZHpickView.app/ZHpickView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZHpickView/ZHpickView-Prefix.pch";
+				INFOPLIST_FILE = "ZHpickViewTests/ZHpickViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1319B6B1A1B21E100530906 /* Build configuration list for PBXProject "ZHpickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1319BA01A1B21E100530906 /* Debug */,
+				F1319BA11A1B21E100530906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1319BA21A1B21E100530906 /* Build configuration list for PBXNativeTarget "ZHpickView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1319BA31A1B21E100530906 /* Debug */,
+				F1319BA41A1B21E100530906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1319BA51A1B21E100530906 /* Build configuration list for PBXNativeTarget "ZHpickViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1319BA61A1B21E100530906 /* Debug */,
+				F1319BA71A1B21E100530906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1319B681A1B21E100530906 /* Project object */;
+}
